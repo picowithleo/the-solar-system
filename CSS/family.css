@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: visible;
+    margin: 0;
+    display: block;
+    background-color: rgb(18, 2, 54);
+    background-image: url("../IMAGE/planet.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#family_page {
+    display: block;
+    font-size: 1.7vw;
+    background-color: rgba(22, 19, 19, 0.322);
+    color: aliceblue;
+    margin-top: 60px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 20px;
+}
+
+#family_media {
+    display: block;
+    text-align: center;
+}
+
+article h1 {
+    word-spacing: 8px;
+    text-shadow: 4px 3px rgba(38, 0, 255, 0.541);
+    text-decoration-line: underline;
+}
+
+article p:nth-child(3) {
+    text-decoration-line: none;
+}
+
+article p {
+    float: none;
+    text-decoration-line: underline;
+    line-height: 1.5em;
+}
+
+.slideshow article {
+	margin-top: 1em;
+}
+
+#section1 img {
+    width: 100%;
+    height: 500px;
+	border-radius: 30px;
+}
+
+#section2 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section3 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section4 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section5 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section6 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section7 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section8 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+#section9 img {
+    width: 100%;
+    height: 650px;
+    border-radius: 30px;
+}
+
+#section10 img {
+    width: 100%;
+    height: 650px;
+    border-radius: 30px;
+}
+
+#section11 img {
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+}
+
+#topmove {
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: -1px;
+    font-size: 1vw;
+}
+
+#topmove:visited {
+    color: aliceblue;
+}
+
+footer {
+    position: relative;
+    bottom: 5px;
+    font-size: 1.2vw;
+    color: aliceblue;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}

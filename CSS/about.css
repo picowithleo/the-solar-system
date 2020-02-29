@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: visible;
+    margin: 0;
+    background-color: rgb(18, 2, 54);
+    background-image: url("../IMAGE/system-drawing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    display: block;
+    border-radius: 8px;
+    background-color: rgba(31, 28, 28, 0.781);
+    margin-top: 60px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+section#about_page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px blue;
+    font-size: 2.5vw;
+}
+
+section#contact_page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px blue;
+    font-size: 2.5vw;
+}
+
+section#donate_page img {
+    float:none;
+    max-width: 250px;
+    margin-right: 2em;
+	padding: 0.1em;
+	margin-bottom: 1em;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 166, 0, 0.61);
+}
+
+section#donate_page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px blue;
+    font-size: 2.5vw;
+}
+
+section#donate_page article p {
+    text-indent: 0px;
+}
+
+article h2 {
+    color: orange;
+    text-align: left;
+    font-size: 2vw;
+    text-decoration-line: underline;
+}
+
+article p {
+    float: none;
+    font-size: 1.5vw;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.3em;
+}
+
+#about_page article{
+    overflow: hidden; /* To clear the floated image */
+    margin-left: 5vw;
+    margin-right: 5vw;
+	border: 3.5px solid rgba(0, 0, 0, 0.767);
+	padding: 1vw 2vw;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+}
+
+article#story-book img {
+    float: left;
+    max-width: 250px;
+    margin-right: 2em;
+	padding: 0.1em;
+	margin-bottom: 1em;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 166, 0, 0.61);
+}
+
+article#references h2 {
+    font-size: 1.7vw;
+}
+
+article#references p {
+    line-height: 30px;
+    font-size: 1.3vw;
+    text-align: left;
+    padding-left: 100px;
+    text-indent: -40px;
+}
+
+#contact_page article{
+    overflow: hidden; /* To clear the floated image */
+    margin-left: 5vw;
+    margin-right: 5vw;
+	border: 3.5px solid rgba(0, 0, 0, 0.767);
+	padding: 1vw 2vw;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+}
+
+#donate_page article{
+    overflow: hidden; /* To clear the floated image */
+    margin-left: 5vw;
+    margin-right: 5vw;
+	border: 3.5px solid rgba(0, 0, 0, 0.767);
+	padding: 1vw 2vw;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+}
+
+article#author img {
+    float: left;
+    max-width: 250px;
+    margin-right: 2em;
+	padding: 0.1em;
+	margin-bottom: 1em;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 166, 0, 0.61);
+}
+
+span#author-name {
+    font-weight: bold;
+    color: rgb(237, 248, 176);
+}
+
+.link-contact:visited {
+    color: aliceblue;
+}
+
+.link-contact:hover {
+    color: #4d9299;
+}
+
+.link-contact:active {
+    color: red;
+}
+
+#top_move {
+    line-height: 30px;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: -1px;
+    font-size: 1vw;
+}
+
+#top_move:visited {
+    color: aliceblue;
+}
+
+footer {
+    position: relative;
+    bottom: 5px;
+    font-size: 1.2vw;
+    color: aliceblue;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+

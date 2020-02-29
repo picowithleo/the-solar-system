@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: visible;
+    margin: 0;
+    display: block;
+    background-color: rgb(18, 2, 54);
+    background-image: url("../IMAGE/astronomy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    color: aliceblue;
+}
+
+#ufo {
+    position: fixed;
+    top: 35vw;
+    left: 46.5vw;
+    z-index: 10;
+}
+
+#ufo img:active {
+    animation: ufo 1.5s linear infinite;
+}
+
+@keyframes ufo {
+	from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+	to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+.article1 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.336);
+    font-size: 17px;
+    background-image: url("../IMAGE/dialog.png"), url("../IMAGE/alien.png"), url("../IMAGE/dialog1.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top center, bottom left, bottom center;
+    background-size: 85% 60%, 35% 60%, 38% 40%;
+    color: aliceblue;
+    margin-top: 60px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 20px;
+    padding-bottom: 29.45vw;
+}
+
+.article1_text {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+.article1_text h2{
+    font-size: 1.5vw;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Form */
+form {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2vw;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+fieldset {
+    text-align: right;
+    border-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+input {
+    font-size: 1vw;
+    flex-wrap: wrap;
+    width: 5vw;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.568);
+    border: 0;
+    border-radius: 30px;
+    color: yellow;
+    background: black;
+    padding: 0.5em 0.8em;
+}
+
+#button_submit {
+    font-weight: bold;
+    font-size: 1.2em;
+    background: black;
+    padding: 0.2em 0.5em;
+    color: yellow;
+    border: 0;
+    border-radius: 30px;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.884), rgba(16, 52, 170, 0.685));
+    cursor: pointer;
+    float: right;
+}
+
+.name {
+	font-weight: bold;
+    color: rgb(255, 230, 0);
+    font-size: 1.5em;
+}
+
+/* article 2 */
+
+#article2 {
+    display: block;
+    font-size: 1.5vw;
+    background-color: rgba(33, 30, 221, 0.137);
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 20px;
+}
+
+#article2 article {
+	overflow: hidden; /* To clear the floated image */
+	padding: 1em 2em;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+#article2 article p {
+    text-align: left;
+    font-size: 1.25em;
+    border: 2px solid rgba(20, 20, 20, 0.486);
+    padding: 0.8em 0.8em;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 40%;
+    margin-top: 5vw;
+}
+
+figure {
+	max-width: 40vw;
+	margin: 0;
+	padding: 0.75em;
+	margin-bottom: 1em;
+	transform: scale(0);
+    transition: transform 2s ease;
+}
+
+figure.star-image-popped {
+	transform: scale(1);
+}
+
+figure img {
+	display: block;
+	max-width: 100%;
+}
+
+#sun figure {
+	float: left;
+}
+
+#mercury figure {
+    float: right;
+}
+
+#venus figure {
+    float: left;
+}
+
+#earth figure {
+    float: right;
+}
+
+#mars figure {
+    float: left;
+}
+
+#jupiter figure {
+    float: right;
+}
+
+#saturn figure {
+    float: left;
+}
+
+#uranus figure {
+    float: right;
+}
+
+#neptune figure {
+    float: left;
+}
+
+#final-end figure {
+    float: right;
+}
+
+footer {
+    position: relative;
+    bottom: 5px;
+    font-size: 1.2vw;
+    color: aliceblue;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
